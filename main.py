@@ -277,13 +277,11 @@ class workoutApp:
             else:
                 continue
 
-test = workoutApp()
-test.main()
-# test.generateRandomExercises()
-# test.addExerciseToCategory()
 
-# test.deleteExerciseFromCategory()
 
-# test.createWorkOut()
-# test.difficultyGenerator(3)
+if __name__ == '__main__':
+    instance = workoutApp()
+    instance.main()
+
+
 
