@@ -73,6 +73,8 @@ class workoutApp:
         dir_path = os.path.dirname(os.path.realpath(__file__))
         os.chdir(dir_path)
         myCategories = glob.glob('*.txt')
+        myCategories.remove('workout.txt')
+
         return myCategories
 
     def displayAllExercises(self,category):
